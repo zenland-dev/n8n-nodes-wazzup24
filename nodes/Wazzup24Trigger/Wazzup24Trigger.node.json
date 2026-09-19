@@ -1,0 +1,35 @@
+{
+	"node": "@zenland-dev/n8n-nodes-wazzup24.wazzup24Trigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/zenland-dev/n8n-nodes-wazzup24?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/zenland-dev/n8n-nodes-wazzup24?tab=readme-ov-file#wazzup24-trigger"
+			}
+		]
+	},
+	"alias": [
+		"Wazzup",
+		"Wazzup24",
+		"Ваззап",
+		"Webhook",
+		"Вебхук",
+		"WhatsApp",
+		"Ватсап",
+		"Telegram",
+		"Телеграм",
+		"Incoming Message",
+		"Входящее сообщение",
+		"Message Status",
+		"Статус сообщения",
+		"New Client",
+		"Новый клиент"
+	]
+}

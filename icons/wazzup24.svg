@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="24" height="24" role="img" aria-label="Wazzup">
+	<!--
+		The Wazzup app tile: a green rounded square with "Wz" in white, as on the
+		favicon of wazzup24.ru (a 120 × 120 PNG, read on 19.09.2026).
+
+		The PNG cannot be used as it is, so the tile is rebuilt around the vendor's
+		own vectors. The W and the z are taken verbatim from the wordmark in the
+		header of wazzup24.ru (the first and third paths of that SVG), scaled by
+		1.7836 so the W is as tall as on the favicon (38 px of 120) and placed on
+		the favicon's glyph box, x 15-105, y 43-81. The wordmark is a lighter
+		weight than the tile, so both letters carry a 0.55 stroke: the rendered
+		white area is then within 2 % of the favicon's (1529 against 1507 pixels
+		at 120 px).
+
+		Corner radius 30 and the gradient ends #20AF4C (top right) and #28B47A
+		(bottom left) are sampled from the same PNG. The tile is opaque and reads on
+		the light and the dark canvas alike, so wazzup24.svg and wazzup24.dark.svg
+		are the same drawing; n8n refuses one file for both themes.
+
+		The web app at app.wazzup24.com ships a vector favicon too — a flat green
+		circle with a smaller "wz" — but at the 24 px n8n draws node icons its
+		letters are half the height and hard to read.
+	-->
+	<defs>
+		<linearGradient id="wazzup24-tile" x1="1" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#20AF4C"/>
+			<stop offset="1" stop-color="#28B47A"/>
+		</linearGradient>
+	</defs>
+	<rect width="120" height="120" rx="30" fill="url(#wazzup24-tile)"/>
+	<g fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.55">
+		<path transform="translate(15 43) scale(1.7836)" d="M34.8722 0L27.4499 21.3048H23.0349L17.5001 5.53925L11.8694 21.3048H7.42234L0 0H4.31904L9.88579 16.1917L15.6765 0H19.5156L25.1784 16.283L30.9051 0H34.8722Z"/>
+		<path transform="translate(-18.57 43) scale(1.7836)" d="M69.3698 18.2613V21.3048H54.6211V18.9004L63.995 8.09583H54.813V5.05229H69.1138V7.45669L59.7079 18.2613H69.3698Z"/>
+	</g>
+</svg>

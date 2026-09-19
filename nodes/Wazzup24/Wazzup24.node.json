@@ -1,0 +1,49 @@
+{
+	"node": "@zenland-dev/n8n-nodes-wazzup24.wazzup24",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Communication", "Sales"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/zenland-dev/n8n-nodes-wazzup24?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/zenland-dev/n8n-nodes-wazzup24?tab=readme-ov-file#wazzup24-node"
+			}
+		]
+	},
+	"alias": [
+		"Wazzup",
+		"Wazzup24",
+		"Ваззап",
+		"WhatsApp",
+		"Ватсап",
+		"WABA",
+		"WhatsApp Business API",
+		"Template",
+		"Шаблон",
+		"Telegram",
+		"Телеграм",
+		"MAX",
+		"Макс",
+		"Viber",
+		"VK",
+		"ВКонтакте",
+		"Avito",
+		"Авито",
+		"Instagram",
+		"Message",
+		"Сообщение",
+		"Chat",
+		"Чат",
+		"Messenger",
+		"Мессенджер",
+		"Contact",
+		"Контакт",
+		"Deal",
+		"Сделка"
+	]
+}
